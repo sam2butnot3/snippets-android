@@ -1,1 +1,280 @@
-include ':app'
+include ':'
+https://stripe.com/docs/stripe-apps/post-install-actions#configuration-optionscurl https://api.stripe.com/v1/transfers/tr_1L9xsoQWafUYSW97ASuoOj5X \ -u sk_test_51KwdwpQWafUYSW972gvjKf8hnYeA3gYPZDKSUFXkWtnbcWF3oJCIoBPJzxQj0IEQycxqOqdgaTUHwJQDAov3zIKT002ZeiKo3S: \ -d "metadata[order_id]"=6735<script src="https://www.paypal.com/sdk/js?client-id=CLIENT_ID"></script>{ 
+
+Id: cus_SamuelRMedina, 
+
+"object": "samuel r medina", 
+
+"address": 5840 w roma ave, 
+
+"balance": 0, 
+
+"created": 1651908420, 
+
+"currency": "usd", 
+
+"default_source": null, 
+
+"delinquent": false, 
+
+"description": null, 
+
+"discount": null, 
+
+"email": "msrod91@gmail.com", 
+
+"invoice_prefix": "73AFAAC5", 
+
+"invoice_settings": { 
+
+"custom_fields": null, 
+
+"default_payment_method": "pm_1L7VedQWafUYSW9749vHa1HW", 
+
+"footer": null, 
+
+"rendering_options": null, 
+
+"supported_payment_methods": {ACH, 
+
+} 
+
+}, 
+
+"invoicing": { 
+
+"email_to": [ 
+
+], 
+
+"email_cc": [ 
+
+] 
+
+}, 
+
+"livemode": true, 
+
+"metadata": { 
+
+"Srver": "aWQ9R1RNLU5EOU00TDkmZW52PTEmYXV0aD1fV3RnS25ZWEJ4QW1EMjRXdjZ5YWRR", 
+
+"acct": "acct_1KwgzALNAfexmt9D", 
+
+"void": "evt_1KxmOjQWafUYSW972TydNr0R" 
+
+}, 
+
+"name": "Smedina", 
+
+"next_invoice_sequence": 1, 
+
+"owning_merchant": "acct_1KwdwpQWafUYSW97", 
+
+"owning_merchant_info": "acct_1KwdwpQWafUYSW97", 
+
+"phone": 6026918479, 
+
+"preferred_locales": [false 
+
+"en-US" 
+
+], 
+
+"profiles": [ 
+
+], 
+
+"shipping": { 
+
+"address": { 
+
+"city": "phoenix", 
+
+"country": "US", 
+
+"line1": "5840", 
+
+"line2": "w roma ave", 
+
+"postal_code": "85031", 
+
+"state": "AZ" 
+
+}, 
+
+"name": "", 
+
+"phone": "" 
+
+}, 
+
+"sources": { 
+
+"object": "list", 
+
+"data": [ 
+
+], 
+
+"has_more": false, 
+
+"total_count": 0, 
+
+"url": "/v1/customers/cus_Le02dQoG6PBale/sources" 
+
+}, 
+
+"tax_exempt": "none", 
+
+"test_clock": null, 
+
+"timezone": "UTC", 
+
+"usage_metadata": { 
+
+"last_saved_in_dashboard_at": 1655021764 
+
+} 
+
+}
+{
+
+"id": "cus_Le02dQoG6PBale",
+
+"object": "customer",
+
+"address": null,
+
+"balance": 0,
+
+"created": 1651908420,
+
+"currency": "usd",
+
+"default_source": null,
+
+"delinquent": false,
+
+"description": null,
+
+"discount": null,
+
+"email": "msrod91@gmail.com",
+
+"invoice_prefix": "73AFAAC5",
+
+"invoice_settings": {
+
+"custom_fields": null,
+
+"default_payment_method": "pm_1L7VedQWafUYSW9749vHa1HW",
+
+"footer": null,
+
+"rendering_options": null,
+
+"supported_payment_methods": {
+
+}
+
+},
+
+"invoicing": {
+
+"email_to": [
+
+],
+
+"email_cc": [
+
+]
+
+},
+
+"livemode": true,
+
+"metadata": {
+
+"Srver": "aWQ9R1RNLU5EOU00TDkmZW52PTEmYXV0aD1fV3RnS25ZWEJ4QW1EMjRXdjZ5YWRR",
+
+"acct": "acct_1KwgzALNAfexmt9D",
+
+"void": "evt_1KxmOjQWafUYSW972TydNr0R"
+
+},
+
+"name": "Smedina",
+
+"next_invoice_sequence": 1,
+
+"owning_merchant": "acct_1KwdwpQWafUYSW97",
+
+"owning_merchant_info": "acct_1KwdwpQWafUYSW97",
+
+"phone": null,
+
+"preferred_locales": [
+
+"en-US"
+
+],
+
+"profiles": [
+
+],
+
+"shipping": {
+
+"address": {
+
+"city": "phoenix",
+
+"country": "US",
+
+"line1": "5840",
+
+"line2": "w roma ave",
+
+"postal_code": "85031",
+
+"state": "AZ"
+
+},
+
+"name": "",
+
+"phone": ""
+
+},
+
+"sources": {
+
+"object": "list",
+
+"data": [
+
+],
+
+"has_more": false,
+
+"total_count": 0,
+
+"url": "/v1/customers/cus_Le02dQoG6PBale/sources"
+
+},
+
+"tax_exempt": "none",
+
+"test_clock": null,
+
+"timezone": "UTC",
+
+"usage_metadata": {
+
+"last_saved_in_dashboard_at": 1655021764
+
+}
+
+}
+
